@@ -1,12 +1,12 @@
 # Data Experience — Análisis de Google Play Store Apps
 
-Proyecto académico para la materia **Data Experience**. Analiza un dataset real de la Google Play Store para practicar el ciclo completo de un proyecto de datos: selección, exploración, limpieza, análisis estadístico, visualización y modelado predictivo.
+Proyecto final **Data Experience**. Analizamos un dataset real de Google Play Store para aplicar lo aprendido en los módulos de DATA EXPERIENCE: selección, exploración, limpieza, análisis estadístico, visualización...
 
 ## Dataset
 
 **Google Play Store Apps** (Kaggle) — 10,841 apps con columnas como categoría, calificación, número de reseñas, instalaciones, tamaño, precio y versión de Android soportada.
 
-**Justificación:** como estudiantes de Ingeniería de Sistemas, este dataset conecta directamente con el ciclo de vida del software: calidad de datos en catálogos de apps, modelos de monetización, compatibilidad de versiones y comportamiento real de usuarios.
+**Justificación:** como estudiantes de Ingeniería de Sistemas, escogimos este dataset porque conecta directamente con el ciclo de vida del software, en este caso de las apps: calidad de datos en catálogos de apps, modelos de monetización, compatibilidad de versiones (de android) y comportamiento real de usuarios.
 
 ## Estructura del proyecto
 
@@ -17,10 +17,11 @@ El trabajo está desarrollado en un único notebook: [`proyecto_data_experience.
 - Detección de problemas reales: una fila corrupta con columnas corridas, 483 duplicados exactos, columnas numéricas guardadas como texto (`Installs`, `Price`, `Size`).
 - Limpieza y transformación de los datos hacia un dataset depurado (`googleplaystore_clean.csv`).
 
+
 ### Fase 2 — Análisis estadístico
 - Medidas de tendencia central y dispersión (media, mediana, moda, varianza, desviación estándar).
 - Comparación entre variables (apps gratis vs. pagas, rating por categoría).
-- Detección de outliers (método IQR) y estrategias de manejo: conservación, transformación logarítmica, estandarización z-score y capping — explicando cuál se usó para cada caso y por qué.
+- Detección de outliers (método IQR) y estrategias de manejo: conservación, transformación logarítmica, estandarización z-score y capping en donde explicamos cuál se usó para cada caso y por qué.
 - Validación cruzada entre columnas para diferenciar errores reales de outliers genuinos (ej. apps con más reseñas que instalaciones).
 
 ### Fase 3 — Visualización, storytelling y modelo predictivo
@@ -49,4 +50,6 @@ El trabajo está desarrollado en un único notebook: [`proyecto_data_experience.
 
 ## Autoría
 
-Proyecto grupal — materia Data Experience, Ingeniería de Sistemas.
+Elen Zawady,
+Daniela Salcedo,
+Maicol Gomez 
