@@ -53,3 +53,8 @@ El trabajo está desarrollado en un único notebook: [`proyecto_data_experience.
 Elen Zawady,
 Daniela Salcedo,
 Maicol Gomez 
+
+## Presentación
+
+[Video de presentación](https://www.youtube.com/watch?v=L8XKNEFyhpU)
+
